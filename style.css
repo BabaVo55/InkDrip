@@ -58,7 +58,12 @@ nav{
     cursor: pointer;
     color:  gray;
     font-weight: 400;
+    transition: color 0.5s;
 }
+.menuItem:hover{
+    color: red;
+}
+
 
 .slider {
     /*background: url(backgrnd/mariano-baraldi-kEWPxu9QyNs-unsplash-4.jpg);*/
@@ -199,6 +204,10 @@ nav{
     flex-direction: column;
     align-items: center;
     text-align: center;
+    transition: transform 0.5s;
+}
+.feature:hover{
+    transform: translateY(-10px);
 }
 
 .featureIcon{
